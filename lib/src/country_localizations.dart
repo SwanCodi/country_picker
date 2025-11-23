@@ -25,7 +25,7 @@ class CountryLocalizations {
 
   Future<bool> load() async {
     String jsonString =
-        await rootBundle.loadString('packages/country_code_picker/src/i18n/${locale.languageCode}.json');
+        await rootBundle.loadString('packages/country_picker/src/i18n/${locale.languageCode}.json');
     Map<String, dynamic> jsonMap = json.decode(jsonString);
 
     _localizedStrings = jsonMap.map((key, value) {
