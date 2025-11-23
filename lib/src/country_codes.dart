@@ -1,0 +1,27 @@
+const List<Map<String, String>> codes = [
+  {"name": "اليمن", "code": "YE", "iso3Code": "YEM", "dial_code": "+967"},
+  {
+    "name": "العربية السعودية",
+    "code": "SA",
+    "iso3Code": "SAU",
+    "dial_code": "+966",
+  },
+  {"name": "United States", "code": "US", "iso3Code": "USA", "dial_code": "+1"},
+  {
+    "name": "دولة الإمارات العربية المتحدة",
+    "code": "AE",
+    "iso3Code": "ARE",
+    "dial_code": "+971",
+  },
+  {"name": "البحرين", "code": "BH", "iso3Code": "BHR", "dial_code": "+973"},
+  {"name": "مصر", "code": "EG", "iso3Code": "EGY", "dial_code": "+20"},
+  {"name": "العراق", "code": "IQ", "iso3Code": "IRQ", "dial_code": "+964"},
+  {"name": "الاردن", "code": "JO", "iso3Code": "JOR", "dial_code": "+962"},
+  {"name": "الكويت", "code": "KW", "iso3Code": "KWT", "dial_code": "+965"},
+  {"name": "لبنان", "code": "LB", "iso3Code": "LBN", "dial_code": "+961"},
+  {"name": "عمان", "code": "OM", "iso3Code": "OMN", "dial_code": "+968"},
+  {"name": "فلسطين", "code": "PS", "iso3Code": "PSE", "dial_code": "+970"},
+  {"name": "قطر", "code": "QA", "iso3Code": "QAT", "dial_code": "+974"},
+  {"name": "سوريا", "code": "SY", "iso3Code": "SYR", "dial_code": "+963"},
+  {"name": "السودان", "code": "SD", "iso3Code": "SDN", "dial_code": "+249"},
+];
